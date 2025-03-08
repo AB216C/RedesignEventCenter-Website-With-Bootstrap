@@ -5,10 +5,12 @@
   }
 }
 
+
 div p a {
   color:black;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 50px;
+  text-decoration: none;
   }
 
 
@@ -47,10 +49,6 @@ div p a {
     #sub-button:hover {
       background-color:green;
       cursor:pointer;
-    }
-
-    .img-fluid {
-      object-fit:cover;
     }
 
     .sign-in{
