@@ -18,18 +18,19 @@ body {
     width:100%;
   }
 
-/* @media (max-width: 576px) {
+@media(min-width:50px) and (max-width:556px){
   body {
     margin-top:33%;
   }
   .att-image {
     width:100%;
   }
-} */
+}
 
-@media (min-width:10px) and (max-width: 576px) {
-  .signup-form {
-    margin-top:40%;
+
+@media (max-width: 576px) {
+  body {
+    margin-top:33%;
   }
   .att-image {
     width:100%;
