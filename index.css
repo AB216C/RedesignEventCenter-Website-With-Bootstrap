@@ -18,7 +18,7 @@ body {
     width:100%;
   }
 
-@media(min-width:50px) and (max-width:556px){
+@media(min-width:300px) and (max-width:550px){
   body {
     margin-top:33%;
   }
