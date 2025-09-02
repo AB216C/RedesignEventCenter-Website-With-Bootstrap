@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      content="width=device-width, initial-scale=1"
     />
 
     <!-- Bootstrap CSS v5.2.1 -->
@@ -20,10 +20,10 @@
     <link rel="stylesheet" href="index.css">
   </head>
 
-  <body>
+  <body class="mx-1 mb-3">
     <header class="bg-success">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-        <div class="container-fluid bg-success py-2">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+        <div class="container-fluid bg-success py-5">
 
           <!-- Logo -->
           <a class="navbar-brand fs-4" href="index.html">NConcert</a>
@@ -88,7 +88,7 @@
 
   <form action="/submit" method="POST">
     <div class="container">
-      <fieldset class="pers-info pt-4">
+      <fieldset class="pers-info">
 
         <div>
           <p class="ps-5 fw-bolder fs-1 my-4">Fill Out The Form-We'll Get Back to You Soon</p>
@@ -98,27 +98,23 @@
           Personal Information:
         </p> -->
         <div class="private-info">
-          <div class="col-6 ps-5">
+          <div class="col-6 ps-2">
             <label>Full Name:</label>
             <input  class="form-control" style="padding:10px;font-size:large" type="text" placeholder="Enter Full Name"required>
           </div>
-          <div class="col-6 ps-5">
+          <div class="col-6 ps-2">
             <label>Email:</label>
             <input class="form-control" style="padding:10px;font-size:large"  type="email" placeholder="Enter Email"required>
           </div>
-          <div class="col-6 ps-5">
+          <div class="col-6 ps-2">
             <label>Phone number:</label>
             <input class="form-control" style="padding:10px;font-size:large"  type="text" placeholder="Enter Phone Number">
           </div>
-          <div class="col-6 ps-5">
+          <div class="col-6 ps-2">
             <label for="message">Your Message/inquiry:</label>
             <textarea class="form-control my-5" rows="4" cols="29"></textarea>
-
           </div>
-
           <button id="sub-button">Submit</button>
-
-
         </div>
       </fieldset>
     </div>
@@ -127,14 +123,14 @@
     </main>
 
 
-    <footer class="bg-info py-3">
+    <footer class="bg-info py-3 mt-5">
       <div class="container-fluid d-block ">
         <div class="py-2">
           <a class="text-light" style="padding-left:31%" href="#privacy">Privacy Policy</a> | <a class="text-light" href="#terms">Terms of Service</a>
         </div>
 
         <div class="py-2">
-          <p class="text-light" style="padding-left:30%" id="rights">&copy; 2025 NConcert. All rights reserved.</p>
+          <p class="text-light" style="padding-left:30%" id="rights">&copy;2025 NConcert - Built by Ferdinand Niyongira</p>
         </div>
       </div>
     </footer>
