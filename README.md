@@ -7,7 +7,8 @@ While building this website, previously, HTML and CSS codes or instructions were
 In addition, the project included a file called "someJavaScriptFunctions". This file contains a list of functions that will be useful in storing collected information and automating tasks for users such as the total amount of tickets. Lastly, these functions can help welcome and greet users after signing in. 
 
 
-Next features;
-Add Stripe to receive and send payment
+Next features that will make the website fully functional;
+Add Stripe to receive and send payments after the user hit "Place order " button
 Add Database and backend to manager data from users
+Use FASTAPI for the backend
 
